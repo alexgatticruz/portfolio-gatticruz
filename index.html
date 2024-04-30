@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <title>Alex Gatti Cruz</title>
+</head>
+<body>
+    <!-- header-->
+    <header id="encabezado">
+        <img class="logo" src="./assets/agc-negro.png" alt="Alex Gatti Cruz">
+        <p class="subtitulo">
+            Alex Gatti Cruz
+        </p>
+        <nav class="menu">
+            <ul>
+                <a href="./index.html">Inicio</a>
+                <a href="./html/sobremi.html">Sobre mí</a>
+                <a href="./html/videografia.html">Videografía</a>
+                <a href="./html/audiografia.html">Audiografía</a>
+                <a href="./html/fotografia.html">Fotografía</a>
+            </ul>
+        </nav>
+        <div>
+            <ul>
+                <a href="https://www.instagram.com/alexgatticruz/">
+                    <img class="redes-sociales" src="./assets/instagram-logo.png" alt="Instagram Alex Gatti Cruz">
+                </a>
+                <a href="https://www.facebook.com/alexsgatti">
+                    <img class="redes-sociales" src="./assets/facebook-logo.png" alt="Facebook Alex Gatti Cruz">
+                </a>
+                <a href="https://www.tiktok.com/@_alexgatticruz">
+                    <img class="redes-sociales" src="./assets/logo-tik-tok.png" alt="Tik tok Alex Gatti Cruz">
+                </a>
+                <a href="">
+                    <img class="redes-sociales" src="./assets/mail-logo.png" alt="Mail Alex Gatti Cruz">
+                </a>
+            </ul>
+        </div>
+        <h1> Hola! Soy Alex</h1>
+        <h2>
+            Licenciado en Medios Audiovisuales y Digitales
+        </h2>
+    </header>
+    <main class="cuerpo">
+        <!-- sección sobre mi-->
+        <section class="sobre-mi">
+            <article>
+                <h3>Sobre Mí</h3>
+                <div class="biografia">
+                    <p>Hola! Soy Alex</p>
+                    <a href="./html/sobremi.html">
+                        <img class="perfil" src="./assets/01-sobre-mi/alex.png" alt="Alex Gatti Cruz">
+                    </a>
+                </div>
+            </article>
+        </section>
+    <!-- mis trabajos -->
+        <section class="mis-trabajos">
+            <h2>Mis trabajos</h2>
+            <article>
+                <div class="video-index">
+                    <p>Video</p>
+                    <a href="./html/videografia.html">
+                        <video class="video-presentacion" src="./assets/02-videografia/bts-vos-y-yo.mp4" controls>BTS de Vos y yo</video>
+                    </a>
+                </div>
+            </article>
+            <article>
+                <div class="audio-index">
+                    <p>Audio</p>
+                    <a href="./html/audiografia.html">
+                        <audio controls>
+                            <source class="audio-presentacion" src="./assets/03-audiografia/devolucion.mp4" type="audio/mp4">
+                        </audio>
+                    </a>
+                </div>
+            </article>
+            <article>
+                <div class="fotografia-index">
+                    <p>Fotografía</p>
+                    <img class="imagen-presentacion" src="./assets/04-fotografia/MARCHA/1.jpg" alt="Marcha colegio San José, Rafaela">
+                </div>
+            </article>
+            <article>
+                <div class="escritos-disenios-index">
+                    <p>Escritos/Diseños</p>
+                    <a class="escrito-presentacion" href="https://docs.google.com/document/d/1suJskcHB7nDXH309eYJOCl_SFOY4Xe3CwE2ib-0lEPU/edit">Escritos</a>
+                </div>
+            </article>  
+        </section>
+    </main>
+    <!-- marcas -->
+    <aside class="marcas">
+        <h2>Marcas</h2>
+    </aside>
+    <!-- footer -->
+    <footer id="footer">
+        <h2 class="contactate">Contactate</h2>
+        <form class="formulario-contacto" action="/submit_formulario" method="post">
+            <label for="nombre">Nombre y apellido:</label><br>
+            <input type="text" id="nombre" name="nombre"><br><br>
+            
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+            
+            <label for="motivo">Motivo:</label><br>
+            <textarea id="motivo" name="mensaje" rows="4" cols="50"></textarea><br><br>
+            
+            <input type="submit" value="Enviar">
+        </form>
+        <ul class="redes">
+            <a href="https://www.instagram.com/alexgatticruz/">Instagram</a>
+            <a href="https://www.facebook.com/alexsgatti">Facebook</a>
+            <a href="https://www.tiktok.com/@_alexgatticruz">Tik tok</a>
+            <a href="">Mail</a>
+        </ul>
+        <a href="./index.html">
+         <img class="logo-final" src="./assets/agc-blanco.png" alt="Alex Gatti Cruz">
+        </a>
+        <p class="copyright">
+            &copy;2024. Alex Gatti Cruz
+        </p>
+    </footer>
+</body>
+</html>

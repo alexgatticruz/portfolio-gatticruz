@@ -1,0 +1,192 @@
+/* header */
+#encabezado {
+    background-color: #d0b0b0;
+    .logo {
+        height: 80px;
+        margin: 10px;
+    }
+    .subtitulo {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 850px;
+        font-size: 20px;
+        color: #000000;
+        margin: 10px;
+    }
+    .menu {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        margin: 40px;
+        a {
+            text-decoration: none;
+            color: #000000;
+        }
+    }
+    .redes-sociales {
+        height: 25px;
+    }
+    h1 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 75px;
+        font-weight: 700;
+        margin: 40px;
+    }
+    h2 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 20px;
+        font-weight: 350;
+        margin: 40px;
+    }
+}
+/* main */
+.cuerpo {
+    background-color: #f0f8ff;
+
+    /* sobre mí */
+    .sobre-mi 
+        h3 {
+            font-family: "Montserrat", sans-serif;
+            font-weight: 700;
+            font-size: 25px;
+            margin: 25px;
+        }
+    
+    .sobre-mi 
+        .biografia {
+            font-family: "Montserrat", sans-serif;
+            font-weight: 600;
+            font-size: 18px;
+            margin: 25px;
+            color: #3f3f3f;
+            .perfil {
+                width: 500px;
+            }
+        }
+    /* mis trabajos */
+    .mis-trabajos {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+        margin: 25px;
+        .video-index {
+            p {
+                font-family: "Montserrat", sans-serif;
+                font-weight: 500;
+                font-size: 18px;
+                margin: 25px;
+            }
+            .video-presentacion {
+                width: 200px;
+            }
+        }
+        .audio-index {
+            p {
+                font-family: "Montserrat", sans-serif;
+                font-weight: 500;
+                font-size: 18px;
+                margin: 25px;
+            }
+            .audio-presentacion {
+                width: 200px;
+            }
+        }
+        .fotografia-index {
+            p {
+                font-family: "Montserrat", sans-serif;
+                font-weight: 500;
+                font-size: 18px;
+                margin: 25px;
+            }
+            .imagen-presentacion {
+                width: 200px;
+            }
+        }
+        .escritos-disenios-index {
+            p {
+                font-family: "Montserrat", sans-serif;
+                font-weight: 500;
+                font-size: 18px;
+                margin: 25px;
+            }
+            .escrito-presentacion {
+                width: 200px;
+            }
+        }
+    }
+}
+.marcas {
+    background-color: #d0b0b0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 25px;
+}
+#footer {
+    background-color: #3f3f3f;
+    .contactate {
+        font-family: "Montserrat", sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        margin: 40px;
+        color: #ffffff;
+    }
+    .formulario-contacto {
+        /* Estilos para el formulario */
+        background-color: #3f3f3f;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .formulario-contacto label {
+        /* Estilos para las etiquetas del formulario */
+        font-weight: 300;
+        font-family: "Montserrat", sans-serif;
+        color: #ffffff;
+        margin: 40px;
+    }
+    
+    .formulario-contacto input[type="text"],
+    .formulario-contacto input[type="email"],
+    .formulario-contacto textarea {
+        /* Estilos para los campos de texto y área de texto del formulario */
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+    }
+    
+    .formulario-contacto input[type="submit"] {
+        /* Estilos para el botón de enviar del formulario */
+        background-color: #ffffff;
+        color: #3f3f3f;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .redes {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 250;
+        font-size: 15px;
+        margin: 40px;
+        a {
+            text-decoration: none;
+            color: #ffffff;
+        } 
+    }
+    .logo-final {
+        height: 30px;
+        margin: 40px;
+    }
+    .copyright {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 200;
+        font-size: 15px;
+        margin: 40px;
+        color: #ffffff;
+    }
+}
+
